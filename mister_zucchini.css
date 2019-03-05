@@ -51,16 +51,7 @@ footer{
   background: #bb0000;
   color: white;
 } 
-.logo{
-  width:70px;
-  height:70px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
 
-
-}
 
 li {
 display: inline-block;
@@ -68,10 +59,12 @@ float: none;
 
 }
 
-
-header{
-  background-color: dimgray;
+.logo {
+position: absolute;
+top: 0px
 }
+
+
 
 
 
@@ -87,3 +80,27 @@ background-color: #5F9EA0;
 .body_winter{
 background-color: #5F9EA0;
 }
+
+.titreOverlay{
+
+
+  color:  #aceb98;
+  font-size: 40px;
+  background-color: #5a5a66;
+}
+
+.cardmenu{
+  border-color: #a6c36f;
+  border-width: 3px;
+}
+
+nav{
+
+  font-size: 30px;
+  background-color: grey;
+}
+
+.titre{
+  background-color: black;
+}
+
