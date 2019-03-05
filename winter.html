@@ -6,6 +6,9 @@
    <link href="https://fonts.googleapis.com/css?family=Courgette|Englebert|Raleway" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="mister_zucchini.css">
+   <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
    <title>Mister Zucchini</title>
 </head>
 
@@ -50,29 +53,312 @@
 
 </header>
 
-<body class="body_winter">
+<body>
 
-   <div class="container">
-      <img src="img/hiver.jpg" class=" d-block w-100">
+   <div class="card bg-dark text-white">
+      <img src="img/hiver.jpg" class="card-img" alt="hiver">
+      <div class="card-img-overlay">
+      </div>
    </div>
 
-   <section>
-      <div class="card mb-3" style="max-width: 540px;">
+   <section class="entree">
+      <div class="cardmenu card mb-3 m-5">
          <div class="row no-gutters">
             <div class="col-md-4">
-               <img src="img/toast.jpg" class="card-img" alt="menu1">
+               <img src="img/entree.jpg" class="card-img" alt="entree">
             </div>
             <div class="col-md-8">
                <div class="card-body">
-                  <h4 class="card-title">Menu 1</h4>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                     additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title d-flex justify-content-center titre">Nos Entrées</h5> 
+                  <p class="card-text d-flex justify-content-center">.Tartine chaude au chèvre-miel.<br>.Velouté de
+                     citrouille et poireau au persil.<br>.Mini muffins aux poireaux et parmesan.<br>.Brick au camembert.
+                  </p>
+               </div>
+               <div class="row">
+                  <button type="button" class="btn btn-secondary mx-auto" data-toggle="modal"
+                     data-target="#exampleModalCenter">
+                     Commander
+                  </button>
+               </div>
+
+               <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered " role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="exampleModalCenterTitle">Commander</h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+                              rel="stylesheet">
+                           <div class="container">
+                              <table id="cart" class="table table-hover table-condensed">
+                                 <thead>
+                                    <tr>
+                                       <th style="width:50%">Produits</th>
+                                       <th style="width:10%">Prix</th>
+                                       <th style="width:8%">Quantité</th>
+                                       <th style="width:22%" class="text-center">Sous-total</th>
+                                       <th style="width:10%"></th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td data-th="Product">
+                                          <div class="row">
+                                             <div class="col-sm-2 hidden-xs"><img src="img/tartine.jpg" alt="tartine"
+                                                   class="img-responsive" /></div>
+                                             <div class="col-sm-10">
+                                                <h4 class="nomargin">option 1</h4>
+                                                <p>Tartine chaude au chèvre-miel.</p>
+                                             </div>
+                                          </div>
+                                       </td>
+                                       <td data-th="Price">1.99€</td>
+                                       <td data-th="Quantity">
+                                          <input type="number" class="form-control text-center" value="1">
+                                       </td>
+                                       <td data-th="Sous-total" class="text-center">1.99</td>
+                                       <td class="actions" data-th="">
+                                          <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                                          <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                                 <td data-th="Product">
+                                    <div class="row">
+                                       <div class="col-sm-2 hidden-xs"><img src="img/veloute.jpg" alt="Velouté"
+                                             class="img-responsive" /></div>
+                                       <div class="col-sm-10">
+                                          <h4 class="nomargin">option 2</h4>
+                                          <p>Velouté de citrouille et poireau persil.</p>
+                                       </div>
+                                    </div>
+                                 </td>
+                                 <td data-th="Price">1.99€</td>
+                                 <td data-th="Quantity">
+                                    <input type="number" class="form-control text-center" value="1">
+                                 </td>
+                                 <td data-th="Subtotal" class="text-center">1.99</td>
+                                 <td class="actions" data-th="">
+                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                 </td>
+                                 </tr>
+                                 </tbody>
+                                 <td data-th="Product">
+                                    <div class="row">
+                                       <div class="col-sm-2 hidden-xs"><img src="img/muffin.jpg" alt="muffin"
+                                             class="img-responsive" /></div>
+                                       <div class="col-sm-10">
+                                          <h4 class="nomargin">option 3</h4>
+                                          <p>Mini muffins aux poireaux et parmesan.</p>
+                                       </div>
+                                    </div>
+                                 </td>
+                                 <td data-th="Price">1.99€</td>
+                                 <td data-th="Quantity">
+                                    <input type="number" class="form-control text-center" value="1">
+                                 </td>
+                                 <td data-th="Subtotal" class="text-center">1.99</td>
+                                 <td class="actions" data-th="">
+                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                 </td>
+                                 </tr>
+                                 </tbody>
+                                 <td data-th="Product">
+                                    <div class="row">
+                                       <div class="col-sm-2 hidden-xs"><img src="img/brick.jpg" alt="brick"
+                                             class="img-responsive" /></div>
+                                       <div class="col-sm-10">
+                                          <h4 class="nomargin">option 4</h4>
+                                          <p>Brick au camembert.</p>
+                                       </div>
+                                    </div>
+                                 </td>
+                                 <td data-th="Price">1.99€</td>
+                                 <td data-th="Quantity">
+                                    <input type="number" class="form-control text-center" value="1">
+                                 </td>
+                                 <td data-th="Subtotal" class="text-center">1.99</td>
+                                 <td class="actions" data-th="">
+                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                                 </td>
+                                 </tr>
+                                 </tbody>
+                                 <tfoot>
+                                    <tfoot>
+                                       <tr class="visible-xs">
+                                          <td class="text-center"><strong>Total 1.99</strong></td>
+                                       </tr>
+                                       <tr>
+                                          <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i>
+                                                Continue
+                                                Shopping</a></td>
+                                          <td colspan="2" class="hidden-xs"></td>
+                                          <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
+                                          <td><a href="#" class="btn btn-success btn-block">Checkout <i
+                                                   class="fa fa-angle-right"></i></a></td>
+                                       </tr>
+                                    </tfoot>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
       </div>
-
    </section>
+
+   <section class="plat">
+      <div class="cardmenu card mb-3 m-5">
+         <div class="row no-gutters">
+            <div class="col-md-8">
+               <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center titre">Nos Plats</h5>
+                  <p class="card-text d-flex justify-content-center">.Clafoutis aux poireaux, saumon fumé et
+                     gruyére.<br>.Gnocchis de betterave.<br>.risotto au safran et à la poudre de réglisse.<br>.filet de
+                     chapon rôti à la vinaigrette d'agrumes.</p>
+               </div>
+               <div class="row">
+                  <button type="button" class="btn btn-secondary mx-auto" data-toggle="modal"
+                     data-target="#exampleModalCenter">
+                     Commander
+                  </button>
+               </div>
+
+               <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           ...
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <img src="img/plat.jpg" class="card-img" alt="menu2">
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <section class="dessert">
+      <div class="cardmenu card mb-3 m-5">
+         <div class="row no-gutters">
+            <div class="col-md-4">
+               <img src="img/dessert.jpg" class="card-img" alt="dessert">
+            </div>
+            <div class="col-md-8">
+               <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center titre">Nos Desserts</h5>
+                  <p class="card-text d-flex justify-content-center">.Soupe froide aux marrons coco et café.<br>Vacherin
+                     à l'ananas, mangue, pomme et citron vert.<br>.Galette des rois au grand Marnier.<br>.Tartelette
+                     Mont-Blanc cassis.</p>
+               </div>
+               <div class="row">
+                  <button type="button" class="btn btn-secondary mx-auto" data-toggle="modal"
+                     data-target="#exampleModalCenter">
+                     Commander
+                  </button>
+               </div>
+               <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           ...
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <section class="boisson">
+      <div class="cardmenu card mb-3 m-5">
+         <div class="row no-gutters">
+            <div class="col-md-8">
+               <div class="card-body">
+                  <h5 class="card-title d-flex justify-content-center titre">Nos Boissons</h5>
+                  <p class="card-text d-flex justify-content-center">.Chocolat chaud au caramel, chantilly aux
+                     spéculos.<br>.Chocolat gourmand façon tiramisu et croustillant aux
+                     noisettes.<br>.Ti'punch.<br>.Café gourmant.</p>
+               </div>
+               <div class="row">
+                  <button type="button" class="btn btn-secondary mx-auto" data-toggle="modal"
+                     data-target="#exampleModalCenter">
+                     Commander
+                  </button>
+               </div>
+
+               <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                           <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           ...
+                        </div>
+                        <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <img src="img/boisson.jpg" class="card-img" alt="menu2">
+            </div>
+         </div>
+      </div>
+   </section>
+
+
 
    <footer>
 
@@ -92,12 +378,12 @@
          </div>
 
          <div class="col-sm-2 navbar">
-            <a class="text-light" href="aboutus.html">About us</a>
+            <a class="text-light" href="#aboutus">About us</a>
 
 
          </div>
          <div class="col-sm-2 navbar">
-            <a class="text-light" href="contact.html">Contact</a>
+            <a class="text-light" href="#contact">Contact</a>
 
 
          </div>
@@ -110,7 +396,7 @@
                width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
          </div>
          <div class="col-lg-6">
-            <h2 class="text-uppercase mt-3 font-weight-bold text-white text-center"id="contact">CONTACT US</h2>
+            <h2 class="text-uppercase mt-3 font-weight-bold text-white text-center" id="contact">CONTACT US</h2>
             <form action="">
                <div class="row">
                   <div class="col-lg-6">

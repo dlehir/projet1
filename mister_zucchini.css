@@ -51,16 +51,7 @@ footer{
   background: #bb0000;
   color: white;
 } 
-.logo{
-  width:70px;
-  height:70px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
 
-
-}
 
 li {
 display: inline-block;
@@ -68,10 +59,12 @@ float: none;
 
 }
 
-
-header{
-  background-color: dimgray;
+.logo {
+position: absolute;
+top: 0px
 }
+
+
 
 
 
@@ -86,4 +79,71 @@ background-color: #5F9EA0;
 
 .body_winter{
 background-color: #5F9EA0;
+}
+
+.titreOverlay{
+
+
+  color:  #aceb98;
+  font-size: 40px;
+  background-color: #5a5a66;
+}
+
+.cardmenu{
+  border-color: #a6c36f;
+  border-width: 3px;
+}
+
+nav{
+
+  font-size: 30px;
+  background-color: grey;
+}
+
+.titre{
+  background-color: black;
+}
+
+.cardmenu{
+  border-color: #000000;
+  border-width: 3px;
+}
+
+.aboutus{
+  background-color: dimgray;
+}
+
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+  vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+  table#cart tbody td .form-control{
+    width:20%;
+    display: inline !important;
+  }
+  .actions .btn{
+    width:36%;
+    margin:1.5em 0;
+  }
+
+  .actions .btn-info{
+    float:left;
+  }
+  .actions .btn-danger{
+    float:right;
+  }
+
+  table#cart thead { display: none; }
+  table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+  table#cart tbody tr td:first-child { background: #333; color: #fff; }
+  table#cart tbody td:before {
+    content: attr(data-th); font-weight: bold;
+    display: inline-block; width: 8rem;
+  }
+
+
+
+  table#cart tfoot td{display:block; }
+  table#cart tfoot td .btn{display:block;}
 }
