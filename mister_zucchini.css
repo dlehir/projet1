@@ -22,7 +22,10 @@ footer{
   font-size: 20px;
 }
 
-
+body{
+  background-image: url(img/plancheadecouper.jpg);
+  background-attachment: fixed;
+}
 .icon-bar a:hover {
   background-color: #000;
 }
@@ -100,9 +103,7 @@ nav{
   background-color: grey;
 }
 
-.titre{
-  background-color: black;
-}
+
 
 .cardmenu{
   border-color: #000000;
