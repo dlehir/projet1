@@ -3,7 +3,6 @@
   align-content: center;
   text-align: center;
   padding-bottom: 20px;
-  background-color: rgba(106,92,92,0.5);
 }
 
 .titre{
@@ -11,12 +10,7 @@
 }
 
 footer{
-  background-color: rgba(106,92,92,0.5);
-  
-}
-
-.navbar-light .navbar-nav .nav-link{
-  color: rgba(0,0,0,.9);
+  background-color: dimgray;
 }
 
 .icon-bar a {
@@ -32,16 +26,8 @@ footer{
   background-color: rgba(145, 145, 150, 0.9);
   font-size: 50px;
 }
-
-.titreOverlay2{
-  color: #08519A;
-  background-color: rgba(145, 145, 150, 0.5);
-  font-size: 50px;
-}
-
-
 .Text1 {
- background-color:  rgba(205, 195, 111, 0.8);
+background-color:  rgba(205, 195, 111, 0.8);
 
 position: absolute;
 top: 25%;
@@ -49,31 +35,22 @@ left: 10%;
 font-size: 30px;
 }
 
-.TExte1{
-  background-color: rgba(145, 145, 150, 0.5);
-  position: absolute;
-  top: 80%;
-  left: 25%;
-  font-size: 40px;
-  color: #04396B;
-}
-
 .Text2 {
   background-color:  rgba(179, 236, 45, 0.8);
 
- position: absolute;
- top: 65%;
- left: 20%;
- font-size: 30px;
- }
+position: absolute;
+top: 65%;
+left: 20%;
+font-size: 30px;
+}
 
- @media (max-width: 830px) { 
- .Text1 {
-   display: none;
+@media (max-width: 830px) { 
+.Text1 {
+  display: none;
   }
   .Text2 {
     display: none;
-   }
+  }
   }
 
 
@@ -123,17 +100,17 @@ top: 0px
 }
 
 
-.text4{
-  color: black;
-  background: rgba(237, 119, 119, 0.7);
-}
+
+
 
 a {
 padding-left: 30px;
 padding-right: 30px;
 }
 
-
+.about_us{
+background-color: #5F9EA0;
+}
 
 .body_winter{
 background-color: #5F9EA0;
@@ -146,18 +123,8 @@ background-color: #5F9EA0;
   border-width: 10px;
 }
 
-.cardmenu1{
-  border-color: #083058;
-  border-width: 10px;
-}
-
 .cardsp {
-  border-color: rgba(250, 255, 112,0.4);
-  border-width: 10px;
-}
-
-.cardsp2{
-  border-color: rgba(119, 178, 237,0.4);
+  border-color: rgba(250, 255, 112);
   border-width: 10px;
 }
 
@@ -171,3 +138,4 @@ nav{
 .aboutus{
   background-color: dimgray;
 }
+
