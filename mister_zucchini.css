@@ -82,11 +82,9 @@ background-color: #5F9EA0;
 }
 
 .titreOverlay{
-
-
   color:  #aceb98;
   font-size: 40px;
-  background-color: #5a5a66;
+  background-color: black;
 }
 
 .cardmenu{
@@ -98,10 +96,6 @@ nav{
 
   font-size: 30px;
   background-color: grey;
-}
-
-.titre{
-  background-color: black;
 }
 
 .cardmenu{
