@@ -19,12 +19,41 @@ footer{
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 20px;p
+}
+.titreOverlay{
+  color:  #aceb98;
+ 
+  background-color: rgba(145, 145, 150, 0.9);
+  font-size: 50px;
+}
+.Text1 {
+ background-color:  rgba(205, 195, 111, 0.8);
+
+position: absolute;
+top: 25%;
+left: 10%;
+font-size: 30px;
 }
 
-.Test1 {
- background-color:  rgba(166, 195, 111, 0.8);
-}
+.Text2 {
+  background-color:  rgba(179, 236, 45, 0.8);
+
+ position: absolute;
+ top: 65%;
+ left: 20%;
+ font-size: 30px;
+ }
+
+ @media (max-width: 830px) { 
+ .Text1 {
+   display: none;
+  }
+  .Text2 {
+    display: none;
+   }
+  }
+
 
 body{
   background-image: url(img/plancheadecouper.jpg);
@@ -88,15 +117,16 @@ background-color: #5F9EA0;
 background-color: #5F9EA0;
 }
 
-.titreOverlay{
-  color:  #aceb98;
-  font-size: 40px;
-  background-color: black;
+
+
+.cardmenusp{
+  border-color: #a6c36f;
+  border-width: 5px;
 }
 
-.cardmenu{
-  border-color: #a6c36f;
-  border-width: 3px;
+.cardsp {
+  border-color: rgba(250, 255, 112);
+  border-width: 5px;
 }
 
 nav{
@@ -105,10 +135,6 @@ nav{
   background-color: grey;
 }
 
-.cardmenu{
-  border-color: #000000;
-  border-width: 3px;
-}
 
 .aboutus{
   background-color: dimgray;
