@@ -1,3 +1,5 @@
+/*Home page* + Header + footer*/ 
+
 .navbar{
   font-family: 'Courgette', cursive;
   align-content: center;
@@ -27,54 +29,6 @@ footer{
   color: white;
   font-size: 20px;p
 }
-.titreOverlay{
-  color:  #aceb98;
-  background-color: rgba(145, 145, 150, 0.9);
-  font-size: 50px;
-}
-
-.titreOverlay2{
-  color: #ffe6a0;
-  background-color: rgba(145, 145, 150, 0.9);
-  font-size: 50px;
-}
-
-
-.Text1 {
- background-color:  rgba(205, 195, 111, 0.8);
-
-position: absolute;
-top: 25%;
-left: 10%;
-font-size: 30px;
-}
-
-.TExte1{
-  background-color: rgba(145, 145, 150, 0.8);
-  position: absolute;
-  top: 80%;
-  left: 63%;
-  font-size: 30px;
-  color: #ffe6a0;
-}
-
-.Text2 {
-  background-color:  rgba(179, 236, 45, 0.8);
-
- position: absolute;
- top: 65%;
- left: 20%;
- font-size: 30px;
- }
-
- @media (max-width: 830px) { 
- .Text1 {
-   display: none;
-  }
-  .Text2 {
-    display: none;
-   }
-  }
 
 
 body{
@@ -122,29 +76,75 @@ position: absolute;
 top: 0px
 }
 
-
 .text4{
   color: black;
   background: rgba(237, 119, 119, 0.7);
 }
 
+nav{
+
+  font-size: 30px;
+  background-color: grey;
+}
+
+
+#about_us{
+  background-color: rgba(106,92,92,0.5);
+}
+
 a {
-padding-left: 30px;
-padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+
+
+/* CSS Jérémy G */
+
+.titreOverlay{
+  color:  #aceb98;
+  background-color: rgba(145, 145, 150, 0.9);
+  font-size: 50px;
 }
 
+.Text1 {
+  background-color:  rgba(205, 195, 111, 0.8);
+ 
+ position: absolute;
+ top: 25%;
+ left: 10%;
+ font-size: 30px;
+ }
 
+ .Text2 {
+  background-color:  rgba(179, 236, 45, 0.8);
+ position: absolute;
+ top: 65%;
+ left: 20%;
+ font-size: 30px;
+ }
 
-.body_winter{
-background-color: #5F9EA0;
-}
-
+ @media (max-width: 830px) { 
+  .Text1 {
+    display: none;
+   }
+   .Text2 {
+     display: none;
+    }
+   }
 
 
 .cardmenusp{
-  border-color: #a6c36f;
-  border-width: 10px;
-}
+    border-color: #a6c36f;
+    border-width: 10px;
+  }
+  
+  
+.cardsp {
+    border-color: rgba(250, 255, 112,0.4);
+    border-width: 10px;
+  }
+  
+  
 
 
 .cardmenu1{
@@ -163,18 +163,85 @@ background-color: #5F9EA0;
   border-width: 10px;
 }
 
+/* CSS Jérémy F */
+
+.titreOverlay2{
+  color: #ffe6a0;
+  background-color: rgba(145, 145, 150, 0.9);
+  font-size: 50px;
+}
+
+.TExte1{
+  background-color: rgba(145, 145, 150, 0.8);
+  position: absolute;
+  top: 80%;
+  left: 63%;
+  font-size: 30px;
+  color: #ffe6a0;
+}
+
+
 .cardsp2{
   border-color: rgba(73, 99, 21,0.6);
   border-width: 10px;
 }
 
-nav{
 
-  font-size: 30px;
-  background-color: grey;
+.cardmenu1{
+  border-color: #083058;
+  border-width: 10px;
 }
 
 
-.aboutus{
-  background-color: dimgray;
-}
+
+.body_winter{
+  background-color: #5F9EA0;
+  }
+
+
+
+/* CSS Dylan */
+
+
+
+
+
+
+
+
+
+
+/* CSS Nicolas */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
