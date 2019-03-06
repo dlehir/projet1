@@ -78,7 +78,7 @@ top: 0px
 
 .text4{
   color: black;
-  background: rgba(237, 119, 119, 0.7);
+  background: rgba(227, 172, 20, 0.7);
 }
 
 nav{
@@ -193,6 +193,10 @@ a {
   }
 
 
+ 
+  .parag{
+    font-family: 'American Typewriter', serif;
+  }
 
 /* CSS Dylan */
 
@@ -220,7 +224,6 @@ a {
 
 
 
- 
 
 
 
