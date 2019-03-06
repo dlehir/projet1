@@ -107,6 +107,8 @@ top: 0px
 .text4{
   color: black;
   background: rgba(227, 172, 20, 0.7);
+  font-family: 'Courgette', cursive;
+  font-size: 2vw;
 }
 
 nav{
@@ -204,12 +206,12 @@ font-size: 2vw;
 }
 
 .TExte1{
-  background-color: rgba(145, 145, 150, 0.8);
+  background-color: rgba(130, 36, 100, 0.8);
   position: absolute;
   top: 80%;
-  left: 63%;
+  left: 50%;
   font-size: 2vw;
-  color: #ffe6a0;
+  color: #000000;
 }
 
 
@@ -230,10 +232,13 @@ font-size: 2vw;
   background-color: #5F9EA0;
   }
 
-
+.parag1{
+  font-family: 'American Typewriter', serif;
+}
  
   .parag{
     font-family: 'American Typewriter', serif;
+    font-size: 14px;
   }
 
   .img_hiver{
@@ -364,7 +369,13 @@ font-size: 2vw;
 .panel-title {display: inline;font-weight: bold;}
 .checkbox.pull-right { margin: 0; }
 .pl-ziro { padding-left: 0px; }
+
+.btn-block{
+  display: block;
+  width: 15%;        
+  margin-left: 42%;
 }
 
-
+}
+}
 
