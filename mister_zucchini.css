@@ -1,4 +1,7 @@
 /*Home page* + Header + footer*/ 
+@font-face {
+  font-family: 'Tafelschrift';
+  src: url('font/Tafelschrift.ttf');}
 
 .navbar{
   font-family: 'Courgette', cursive;
@@ -30,6 +33,29 @@ footer{
   font-size: 20px;p
 }
 
+
+#menuDuJour{
+  background-image: url(img/ardoise.jpg);
+  
+ 
+  font-family: 'Tafelschrift', Arial, serif;
+  color: white;
+  font-size: 3vw;
+}
+
+#menuDuJour h2{
+
+  color:grey;
+  font-size: 2vw;
+  background-color: rgba(61, 10, 10, 0.6)
+}
+
+#menuDuJour p{
+
+  color:black;
+  font-size: 1vw;
+  background-color: rgba(218, 214, 214, 0.6)
+}
 
 body{
   background-image: url(img/plancheadecouper.jpg);
@@ -103,34 +129,34 @@ a {
 .titreOverlay{
   color:  #aceb98;
   background-color: rgba(145, 145, 150, 0.9);
-  font-size: 50px;
+  font-size: 5vw;
 }
 
 .Text1 {
   background-color:  rgba(205, 195, 111, 0.8);
- 
- position: absolute;
- top: 25%;
- left: 10%;
- font-size: 30px;
- }
 
- .Text2 {
+position: absolute;
+top: 25%;
+left: 10%;
+font-size: 2vw;
+}
+
+.Text2 {
   background-color:  rgba(179, 236, 45, 0.8);
- position: absolute;
- top: 65%;
- left: 20%;
- font-size: 30px;
- }
+position: absolute;
+top: 65%;
+left: 20%;
+font-size: 2vw;
+}
 
- @media (max-width: 830px) { 
+@media (max-width: 830px) { 
   .Text1 {
     display: none;
-   }
-   .Text2 {
-     display: none;
+  }
+  .Text2 {
+    display: none;
     }
-   }
+  }
 
 
 .cardmenusp{
@@ -144,9 +170,6 @@ a {
     border-width: 10px;
   }
   
-  
-
-
 .cardmenu1{
   border-color: #083058;
   border-width: 10px;
@@ -206,6 +229,7 @@ a {
   border-width: 10px;
 }
 
+<<<<<<< Updated upstream
 /* CSS Nicolas */
 
 
@@ -213,6 +237,7 @@ a {
 
 
 
+<<<<<<< Updated upstream
 
 
 
@@ -232,10 +257,50 @@ a {
 
 
 
+=======
+.titreOverlay3
+{
+  color: #FFB600;
+  background-color: rgba(145, 145, 150, 0.9);
+  font-size: 3vw;
+}
+>>>>>>> Stashed changes
+
+.Texte3
+{
+  background-color: rgba(145, 145, 150, 0.8);
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  font-size: 2vw;
+  color: #FFB600;
+}
+
+.salade1
+{
+  width: 100%;
+  height: 100%;
+}
+
+.dwich1
+{
+  width: 100%;
+  height: 100%;
+}
+
+.dessertete
+{
+  width: 100%;
+  height: 100%;
+}
+
+.drinkete
+{
+  width: 100%;
+  height: 100%;
+}
 
 
-
-
-
-
-
+/* CSS Nicolas */
+=======
+>>>>>>> Stashed changes
