@@ -152,12 +152,6 @@ a {
   border-width: 10px;
 }
 
-.cardmenu3
-{
-  border-color: #FFB600;
-  border-width: 10px;
-}
-
 .cardsp {
   border-color: rgba(250, 255, 112,0.4);
   border-width: 10px;
@@ -202,14 +196,11 @@ a {
 
 /* CSS Dylan */
 
-
-
-
-
-
-
-
-
+.cardmenu3
+{
+  border-color: #FFB600;
+  border-width: 10px;
+}
 
 /* CSS Nicolas */
 
