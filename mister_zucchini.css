@@ -27,7 +27,7 @@ footer{
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 
@@ -152,7 +152,7 @@ left: 20%;
 font-size: 2vw;
 }
 
-@media (max-width: 830px) { 
+@media (max-width: 900px) { 
   .Text1 {
     display: none;
   }
@@ -166,6 +166,9 @@ font-size: 2vw;
     .map{
       display: none;
     }
+  .TExte1{
+    display: none;
+  }
   }
 
 
@@ -192,7 +195,7 @@ font-size: 2vw;
 .titreOverlay2{
   color: #ffe6a0;
   background-color: rgba(145, 145, 150, 0.9);
-  font-size: 50px;
+  font-size: 4vw;
 }
 
 .TExte1{
@@ -200,20 +203,20 @@ font-size: 2vw;
   position: absolute;
   top: 80%;
   left: 63%;
-  font-size: 30px;
+  font-size: 2vw;
   color: #ffe6a0;
 }
 
 
 .cardsp2{
   border-color: rgba(73, 99, 21,0.6);
-  border-width: 10px;
+  border-width: 1vw;
 }
 
 
 .cardmenu1{
   border-color: #083058;
-  border-width: 10px;
+  border-width: 1vw;
 }
 
 
