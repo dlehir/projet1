@@ -303,14 +303,14 @@ font-size: 2vw;
 }
 .titretext{
   background-color:  rgba(236, 160, 45, 0.8);
-position: absolute;<!-- class names: c0 c1 c2 c3 and c4 -->
+position: absolute;
 top: 65%;
 left: 20%;
 font-size: 2vw;
 }
 .cm{
-  border-color: #FF<!-- class names: c0 c1 c2 c3 and c4 -->
-  border-width: 10p<!-- class names: c0 c1 c2 c3 and c4 -->
+  border-color: #FFb600;
+  border-width: 10px;
 }
 .cardcm{
   border-color: rgb(202, 105, 15);
