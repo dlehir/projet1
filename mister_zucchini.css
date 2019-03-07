@@ -32,22 +32,22 @@ footer {
 
 
 
-#menuDuJour {
+#menu-du-jour {
   background-image: url(img/ardoise.jpg);
 }
-#menuDuJour h2 {
+#menu-du-jour h2 {
   font-family: "Fredericka the Great", cursive;
   color: rgb(255, 255, 255);
   font-size: 3vw;
 }
 
-#menuDuJour h3 {
+#menu-du-jour h3 {
   font-family: "Homemade Apple", cursive;
   color: rgb(255, 255, 255);
   font-size: 3vw;
 }
 
-#menuDuJour p {
+#menu-du-jour p {
   font-family: "Homemade Apple", cursive;
   color: white;
   font-size: 2vw;
@@ -98,7 +98,7 @@ body {
 
 }
 
-.text4 {
+.text-4 {
   color: black;
   background: rgba(227, 172, 20, 0.7);
   font-family: "Courgette", cursive;
@@ -121,13 +121,13 @@ nav {
 
 /* CSS Jérémy G */
 
-.titreOverlay {
+.titre-overlay {
   color: #aceb98;
   background-color: rgba(145, 145, 150, 0.9);
   font-size: 5vw;
 }
 
-.Text1 {
+.text-1 {
   background-color: rgba(214, 203, 107, 0.8);
 
   position: absolute;
@@ -136,7 +136,7 @@ nav {
   font-size: 2vw;
 }
 
-.Text2 {
+.text-2 {
   background-color: rgba(179, 236, 45, 0.8);
   position: absolute;
   top: 65%;
@@ -148,10 +148,10 @@ nav {
   .row {
     margin-bottom: 10px;
   }
-  .Text1 {
+  .text-1 {
     display: none;
   }
-  .Text2 {
+  .text-2 {
     display: none;
   }
   .promo {
@@ -160,7 +160,7 @@ nav {
   .map {
     display: none;
   }
-  .TExte1 {
+  .texte-11 {
     display: none;
   }
   .logo {
@@ -200,13 +200,13 @@ nav {
 }
 /* CSS Jérémy F */
 
-.titreOverlay2 {
+.titre-overlay-2 {
   color: #ffe6a0;
   background-color: rgba(145, 145, 150, 0.9);
   font-size: 4vw;
 }
 
-.TExte1 {
+.texte-11 {
   background-color: rgba(130, 36, 100, 0.8);
   position: absolute;
   top: 80%;
@@ -215,12 +215,12 @@ nav {
   color: #000000;
 }
 
-.cardsp2 {
+.card-sp-2 {
   border-color: rgba(73, 99, 21, 0.6);
   border-width: 1vw;
 }
 
-.cardmenu1 {
+.card-menu-1 {
   border-color: #083058;
   border-width: 1vw;
 }
@@ -229,7 +229,7 @@ nav {
   background-color: #5f9ea0;
 }
 
-.parag1 {
+.parag-1 {
   font-family: "American Typewriter", serif;
 }
 
@@ -245,54 +245,54 @@ nav {
 
 /* CSS Dylan */
 
-.cardmenu3 {
+.card-menu-3 {
   border-color: #ffb600;
   border-width: 10px;
 }
 
-.titreOverlay3 {
+.titre-overlay-3 {
   color: #ffb600;
   background-color: rgba(145, 145, 150, 0.9);
   font-size: 3vw;
 }
 
-.Texte3 {
+.texte-3 {
   background-color: rgba(145, 145, 150, 0.8);
   position: absolute;
   top: 65%;
-  left: 55%;
+  left: 70%;
   font-size: 2vw;
   color: #ffb600;
 }
 
-.salade1 {
+.salade-1 {
   width: 100%;
   height: 100%;
 }
 
-.dwich1 {
+.d-wich-1 {
   width: 100%;
   height: 100%;
 }
 
-.dessertete {
+.dessert-ete {
   width: 100%;
   height: 100%;
 }
 
-.drinkete {
+.drink-ete {
   width: 100%;
   height: 100%;
 }
 
 /* css nico */
 
-.titreover {
+.titre-over {
   color: orange;
   background-color: rgba(71, 70, 66, 0.9);
   font-size: 5vw;
 }
-.titretext {
+.titre-text {
   background-color: rgba(236, 160, 45, 0.8);
   position: absolute;
   top: 65%;
@@ -303,9 +303,13 @@ nav {
   border-color: #ffb600;
   border-width: 10px;
 }
-.cardcm {
+.card-cm {
   border-color: rgb(202, 105, 15);
   border-width: 10px;
+}
+
+.modal-dialog .container {
+  padding: 0 !important;
 }
 
 /*CSS Panier*/
@@ -501,7 +505,3 @@ nav {
   background-color: rgba(145, 145, 150, 0.8);
 }
 
-/* CSS Nicolas */
-.modal-dialog .container {
-  padding: 0 !important;
-}
