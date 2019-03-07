@@ -29,6 +29,7 @@ footer {
   font-size: 2vw;
 }
 
+
 #menuDuJour {
   background-image: url(img/ardoise.jpg);
 }
@@ -143,7 +144,7 @@ nav {
   font-size: 2vw;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .Text1 {
     display: none;
   }
