@@ -29,7 +29,6 @@ footer {
   font-size: 2vw;
 }
 
-
 #menuDuJour {
   background-image: url(img/ardoise.jpg);
 }
@@ -87,11 +86,6 @@ body {
 .youtube {
   background: #bb0000;
   color: white;
-}
-
-li {
-  display: inline-block;
-  float: none;
 }
 
 .logo {
@@ -168,6 +162,19 @@ nav {
   }
   .video {
     display: none;
+  }
+
+  .icon-bar a {
+    text-align: center;
+    padding: 2%;
+    transition: all 0.3s ease;
+    color: rgb(218, 218, 218);
+    font-size: 5vw;
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    display: block;
+    margin: auto;
   }
 }
 
