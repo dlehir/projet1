@@ -20,6 +20,7 @@ footer {
   color: rgba(0, 0, 0, 0.9);
 }
 
+
 .icon-bar a {
   display: block;
   text-align: center;
@@ -28,6 +29,8 @@ footer {
   color: white;
   font-size: 2vw;
 }
+
+
 
 #menuDuJour {
   background-image: url(img/ardoise.jpg);
@@ -99,6 +102,7 @@ body {
   font-family: "Courgette", cursive;
   font-size: 2vw;
 }
+
 
 nav {
   font-size: 30px;
@@ -489,6 +493,10 @@ nav {
   display: block;
   width: 15%;
   margin-left: 42%;
+}
+
+.details{
+  background-color: rgba(145, 145, 150, 0.8);
 }
 
 /* CSS Nicolas */
