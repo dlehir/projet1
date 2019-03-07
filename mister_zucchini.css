@@ -502,3 +502,6 @@ nav {
 }
 
 /* CSS Nicolas */
+.modal-dialog .container {
+  padding: 0 !important;
+}
