@@ -145,6 +145,9 @@ nav {
 }
 
 @media (max-width: 1000px) {
+  .row {
+    margin-bottom: 10px;
+  }
   .Text1 {
     display: none;
   }
