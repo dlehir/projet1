@@ -1,840 +1,1383 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 
-<html lang="fr">
-   
-<head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css?family=Courgette%7CEnglebert%7CRaleway" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel="stylesheet" href="mister_zucchini.css">
-   <title>Mister Zucchini</title>
-</head>
+   <html lang="fr">
+   <!--Introduction balise : bootstrap + link-->
 
-<body>
+   <head>
+      <meta charset="utf-8" />
+      <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+      />
+      <link
+      href="https://fonts.googleapis.com/css?family=Courgette%7CEnglebert%7CRaleway"
+      rel="stylesheet"
+      />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link rel="stylesheet" href="mister_zucchini.css" />
+      <title>Mister Zucchini</title>
+   </head>
 
-   <header>   
+   <body>
+      <!--Menu navbar-->
+
+      <header>
       <nav class="navbar navbar-expand-lg navbar-light m-5 rounded">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+         >
             <span class="navbar-toggler-icon"></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav w-100 justify-content-between">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                     aria-haspopup="true" aria-expanded="false">
-                     Our Menu
-                  </a>
-                  <div class="dropdown-menu ">
-                     <a class="dropdown-item" href="winter.html">Winter Menu</a>
-                     <a class="dropdown-item" href="spring.html">Spring Menu</a>
-                     <a class="dropdown-item" href="summer.html">Summer Menu</a>
-                     <a class="dropdown-item" href="pageautomn.html">Autumn Menu</a>
-                  </div>
-               </li>
-               <li class="nav-item ">
-                  <a class="nav-link" href=" panier.html">Panier</a>
-               </li>
-               <li class="nav-item ">
-                  <a class="nav-link" href=" #contact">Contact</a>
-               </li>
+            <li class="nav-item">
+               <a class="nav-link" href="index.html"
+                  >Home<span class="sr-only">(current)</span></a
+               >
+            </li>
+            <li class="nav-item dropdown">
+               <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+               >
+                  Our Menu
+               </a>
+               <div class="dropdown-menu ">
+                  <a class="dropdown-item" href="winter.html">Winter Menu</a>
+                  <a class="dropdown-item" href="spring.html">Spring Menu</a>
+                  <a class="dropdown-item" href="summer.html">Summer Menu</a>
+                  <a class="dropdown-item" href="pageautomn.html">Autumn Menu</a>
+               </div>
+            </li>
+            <li class="nav-item ">
+               <a class="nav-link" href=" panier.html">Panier</a>
+            </li>
+            <li class="nav-item ">
+               <a class="nav-link" href=" #contact">Contact</a>
+            </li>
             </ul>
          </div>
       </nav>
       <div>
-         <a class="d-flex justify-content-center" href="index.html"><img src="img/logo.png"  class="logo" alt="Logo"></a> 
+         <a class="d-flex justify-content-center" href="index.html"
+            ><img src="img/logo.png" class="logo" alt="Logo"
+         /></a>
       </div>
 
-      <br>
+      <br />
       <div class="titre d-flex justify-content-center mt-2 text4">
          <h3>Mister Zucchini</h3>
       </div>
       <div class="titre d-flex justify-content-center text4">
          <h4>Vous en rêvez, nous le cuisinons</h4>
       </div>
+      </header>
 
-   </header>
+      <!--Card spring-->
 
-   <section>
+      <section>
       <div class="cardsp card m-5">
-         <img src="img/springCover.jpg" class="card-img" alt="...">
+         <img src="img/springCover.jpg" class="card-img" alt="..." />
          <div class="card-img-overlay">
             <h5 class="card-title titreOverlay">Spring menu</h5>
-            <p class="card-text Text1">Fraicheur, produits de saison et créativité sont les maitres mots de nos créations.</p>
-            <p class="card-text Text2">La cuisine est exigeante, Des produits choisis avec soin par nos cuisiniers toujours à la recherche de nouvelles saveurs</p>
+            <p class="card-text Text1">
+            Fraicheur, produits de saison et créativité sont les maitres mots de
+            nos créations.
+            </p>
+            <p class="card-text Text2">
+            La cuisine est exigeante, Des produits choisis avec soin par nos
+            cuisiniers toujours à la recherche de nouvelles saveurs
+            </p>
          </div>
       </div>
-   </section>
+      </section>
 
-   <section class="entree">
+      <!--Card Menu-->
+
+      <section class="entree">
       <div class="cardmenusp  cardmenu card mb-3 m-5">
          <div class="row no-gutters">
             <div class="col-md-4">
-               <img src="img/springEntree.jpg" class="card-img img-fluid imgResp" alt="entree">
+            <img
+               src="img/springEntree.jpg"
+               class="card-img img-fluid imgResp"
+               alt="entree"
+            />
             </div>
             <div class="col-md-8">
-               <div class="card-body">
-                  <h5 class="card-title d-flex justify-content-center titre m-5">Nos Entrées</h5> 
-                  <p class="card-text text-center">Asperges blanches des Landes, œufs mimosa <br>
-                     Noir et blanc de nori et gohan <br>
-                     Gelée de carottes et de gohan de konjac à l'agar-agar<br>Carpaccio d’avocat à la coriandre
-                  </p>
-               </div>
-               <div class="row">
-                  <button type="button" class="btn btn-secondary mx-auto" data-toggle="modal"
-                     data-target="#exampleModalCenter1">
-                     Commander
-                  </button>
-               </div>
-               <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered  " role="document">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <h5 class="modal-title" id="exampleModalCenterTitle">Commander</h5>
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                           </button>
-                        </div>
-                        <div class="modal-body">
-                           <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-                              rel="stylesheet">
-                           <div class="container">
-                              <table id="cart" class="table table-hover table-condensed">
-                                 <thead>
-                                    <tr>
-                                       <th style="width:50%">Produits</th>
-                                       <th style="width:10%">Prix</th>
-                                       <th style="width:8%">Quantité</th>
-                                       <th style="width:22%" class="text-center">Sous-total</th>
-                                       <th style="width:10%"></th>
-                                    </tr>
-                                 </thead>
-                                 <tbody>
-                                    <tr>
-                                       <td data-th="Product">
-                                          <div class="row">
-                                             <div class="col-sm-2 hidden-xs"><img src="img/asperges-blanches-des-landes-oeuf-mimosa.jpg" alt="Mimosa"
-                                                   class="img-responsive" /></div>
-                                             <div class="col-sm-10">
-                                                <h4 class="nomargin">option 1</h4>
-                                                <p>Asperges blanches des Landes, œufs mimosa </p>
-                                             </div>
-                                          </div>
-                                       </td>
-                                       <td data-th="Price">18.99€</td>
-                                       <td data-th="Quantity">
-                                          <input type="number" class="form-control text-center" value="1">
-                                       </td>
-                                       <td data-th="Sous-total" class="text-center">18.99€</td>
-                                       <td class="actions" data-th="">
-                                          <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                          <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                       </td>
-                                    </tr>
-                                 </tbody>
-                                 <tbody>
-                                    <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/noir-et-blanc-de-nori-et-gohan.jpg" alt="Gohan"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 2</h4>
-                                          <p>Noir et blanc de nori et gohan </p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99€</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 <tbody>
-                                    <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/gelee-de-carottes-et-de-konjac-a-lagar-agar.jpg" alt="Gelée"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 3</h4>
-                                          <p>Gelée de carottes et de gohan de konjac à l'agar-agar</p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99€</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 <tbody>
-                                    <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/carpaccio-davocat-a-la-coriandre.jpg" alt="Avocats"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 4</h4>
-                                          <p>Carpaccio d’avocat à la coriandre</p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99€</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                       <tr class="visible-xs">
-                                          <td class="text-center"><strong>Total 1.99€</strong></td>
-                                       </tr>
-                                       <tr>
-                                          <td><a href="index.html" class="btn btn-warning"><i class="fa fa-angle-left"></i>
-                                                Continue
-                                                Shopping</a></td>
-                                          <td colspan="2" class="hidden-xs"></td>
-                                          <td class="hidden-xs text-center"><strong>Total 1.99€</strong></td>
-                                          <td><a href="#contact" class="btn btn-success btn-block">Checkout <i
-                                                   class="fa fa-angle-right"></i></a></td>
-                                       </tr>
-                                    
-                              </table>
-                           </div>
-                        </div>
-                        <div class="modal-footer">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
+            <div class="card-body">
+               <h5 class="card-title d-flex justify-content-center titre m-5">
+                  Nos Entrées
+               </h5>
+               <p class="card-text text-center">
+                  Asperges blanches des Landes, œufs mimosa <br />
+                  Noir et blanc de nori et gohan <br />
+                  Gelée de carottes et de gohan de konjac à l'agar-agar<br />Carpaccio
+                  d’avocat à la coriandre
+               </p>
+            </div>
+            <div class="row">
+               <button
+                  type="button"
+                  class="btn btn-secondary mx-auto"
+                  data-toggle="modal"
+                  data-target="#exampleModalCenter1"
+               >
+                  Commander
+               </button>
+            </div>
+            <div
+               class="modal fade"
+               id="exampleModalCenter1"
+               tabindex="-1"
+               role="dialog"
+               aria-labelledby="exampleModalCenterTitle"
+               aria-hidden="true"
+            >
+               <div class="modal-dialog modal-dialog-centered  " role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalCenterTitle">
+                        Commander
+                     </h5>
+                     <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                     >
+                        <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     <link
+                        href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+                        rel="stylesheet"
+                     />
+                     <div class="container">
+                        <table
+                        id="cart"
+                        class="table table-hover table-condensed"
+                        >
+                        <thead>
+                           <tr>
+                              <th style="width:50%">Produits</th>
+                              <th style="width:10%">Prix</th>
+                              <th style="width:8%">Quantité</th>
+                              <th style="width:22%" class="text-center">
+                              Sous-total
+                              </th>
+                              <th style="width:10%"></th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/asperges-blanches-des-landes-oeuf-mimosa.jpg"
+                                    alt="Mimosa"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 1</h4>
+                                    <p>
+                                    Asperges blanches des Landes, œufs mimosa
+                                    </p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">18.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Sous-total" class="text-center">
+                              18.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/noir-et-blanc-de-nori-et-gohan.jpg"
+                                    alt="Gohan"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 2</h4>
+                                    <p>Noir et blanc de nori et gohan</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/gelee-de-carottes-et-de-konjac-a-lagar-agar.jpg"
+                                    alt="Gelée"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 3</h4>
+                                    <p>
+                                    Gelée de carottes et de gohan de konjac à
+                                    l'agar-agar
+                                    </p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/carpaccio-davocat-a-la-coriandre.jpg"
+                                    alt="Avocats"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 4</h4>
+                                    <p>Carpaccio d’avocat à la coriandre</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tr class="visible-xs">
+                           <td class="text-center">
+                              <strong>Total 1.99€</strong>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <a href="index.html" class="btn btn-warning"
+                              ><i class="fa fa-angle-left"></i> Continue
+                              Shopping</a
+                              >
+                           </td>
+                           <td colspan="2" class="hidden-xs"></td>
+                           <td class="hidden-xs text-center">
+                              <strong>Total 1.99€</strong>
+                           </td>
+                           <td>
+                              <a
+                              href="panier.html"
+                              class="btn btn-success btn-block"
+                              >Checkout <i class="fa fa-angle-right"></i
+                              ></a>
+                           </td>
+                        </tr>
+                        </table>
                      </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                     >
+                        Close
+                     </button>
+                  </div>
                   </div>
                </div>
             </div>
+            </div>
          </div>
       </div>
-   </section>
+      </section>
 
-   <section class="plat">
+      <section class="plat">
       <div class="cardmenu cardmenusp card mb-3 m-5">
          <div class="row no-gutters">
             <div class="col-md-8">
-               <div class="card-body">
-                  <h5 class="card-title d-flex justify-content-center titre m-5">Nos Plats</h5>
-                  <p class="card-text text-center">Gnocchis à la sauge <br> Pâtes orecchiette au pesto vert <br> Gratin végétarien <br> Salade de quinoa rouge monochrome </p>
-               </div>
-               <div class="row">
-                  <button type="button" class="btn btn-secondary mx-auto" data-toggle="modal"
-                     data-target="#exampleModalCenter2">
-                     Commander
-                  </button>
-               </div>
+            <div class="card-body">
+               <h5 class="card-title d-flex justify-content-center titre m-5">
+                  Nos Plats
+               </h5>
+               <p class="card-text text-center">
+                  Gnocchis à la sauge <br />
+                  Pâtes orecchiette au pesto vert <br />
+                  Gratin végétarien <br />
+                  Salade de quinoa rouge monochrome
+               </p>
+            </div>
+            <div class="row">
+               <button
+                  type="button"
+                  class="btn btn-secondary mx-auto"
+                  data-toggle="modal"
+                  data-target="#exampleModalCenter2"
+               >
+                  Commander
+               </button>
+            </div>
 
-               <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered" role="document">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <h5 class="modal-title" id="exampleModalCenterTitle1">Commander</h5>
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                           </button>
-                        </div>
-                        <div class="modal-body">
-                              <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-                              rel="stylesheet">
-                           <div class="container">
-                              <table id="cart1" class="table table-hover table-condensed">
-                                 <thead>
-                                    <tr>
-                                       <th style="width:50%">Produits</th>
-                                       <th style="width:10%">Prix</th>
-                                       <th style="width:8%">Quantité</th>
-                                       <th style="width:22%" class="text-center">Sous-total</th>
-                                       <th style="width:10%"></th>
-                                    </tr>
-                                 </thead>
-                                 <tbody>
-                                    <tr>
-                                       <td data-th="Product">
-                                          <div class="row">
-                                             <div class="col-sm-2 hidden-xs"><img src="img/gnocchivert.jpg" alt="Gnocchi"
-                                                   class="img-responsive" /></div>
-                                             <div class="col-sm-10">
-                                                <h4 class="nomargin">option 1</h4>
-                                                <p>Gnocchis à la sauge</p>
-                                             </div>
-                                          </div>
-                                       </td>
-                                       <td data-th="Price">1.99€</td>
-                                       <td data-th="Quantity">
-                                          <input type="number" class="form-control text-center" value="1">
-                                       </td>
-                                       <td data-th="Sous-total" class="text-center">1.99€</td>
-                                       <td class="actions" data-th="">
-                                          <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                          <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                       </td>
-                                    </tr>
-                                 </tbody>
-                                 <tbody>
-                                    <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/pates-orecchiette-au-pesto-vert.jpg" alt="Pates"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 2</h4>
-                                          <p>Pâtes orecchiette au pesto vert</p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 <tbody>
-                                    <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/springGratin.jpg" alt="Gratin"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 3</h4>
-                                          <p>Gratin végétarien </p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99€</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 <tbody>
-                                       <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/salade-monochrome-rouge_0.jpg" alt="brick"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 4</h4>
-                                          <p>Salade de quinoa rouge monochrome </p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 
-                                       <tr class="visible-xs">
-                                          <td class="text-center"><strong>Total 1.99€</strong></td>
-                                       </tr>
-                                       <tr>
-                                          <td><a href="index.html" class="btn btn-warning"><i class="fa fa-angle-left"></i>
-                                                Continue
-                                                Shopping</a></td>
-                                          <td colspan="2" class="hidden-xs"></td>
-                                          <td class="hidden-xs text-center"><strong>Total 1.99€</strong></td>
-                                          <td><a href="#contact" class="btn btn-success btn-block">Checkout <i
-                                                   class="fa fa-angle-right"></i></a></td>
-                                       </tr>
-                                    
-                              </table>
-                           </div>
-                        </div>
-                        <div class="modal-footer">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+            <div
+               class="modal fade"
+               id="exampleModalCenter2"
+               tabindex="-1"
+               role="dialog"
+               aria-labelledby="exampleModalCenterTitle"
+               aria-hidden="true"
+            >
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalCenterTitle1">
+                        Commander
+                     </h5>
+                     <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                     >
+                        <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     <link
+                        href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+                        rel="stylesheet"
+                     />
+                     <div class="container">
+                        <table
+                        id="cart1"
+                        class="table table-hover table-condensed"
+                        >
+                        <thead>
+                           <tr>
+                              <th style="width:50%">Produits</th>
+                              <th style="width:10%">Prix</th>
+                              <th style="width:8%">Quantité</th>
+                              <th style="width:22%" class="text-center">
+                              Sous-total
+                              </th>
+                              <th style="width:10%"></th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/gnocchivert.jpg"
+                                    alt="Gnocchi"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 1</h4>
+                                    <p>Gnocchis à la sauge</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Sous-total" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/pates-orecchiette-au-pesto-vert.jpg"
+                                    alt="Pates"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 2</h4>
+                                    <p>Pâtes orecchiette au pesto vert</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">1.99</td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/springGratin.jpg"
+                                    alt="Gratin"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 3</h4>
+                                    <p>Gratin végétarien</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/salade-monochrome-rouge_0.jpg"
+                                    alt="brick"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 4</h4>
+                                    <p>Salade de quinoa rouge monochrome</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">1.99</td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+
+                        <tr class="visible-xs">
+                           <td class="text-center">
+                              <strong>Total 1.99€</strong>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <a href="index.html" class="btn btn-warning"
+                              ><i class="fa fa-angle-left"></i> Continue
+                              Shopping</a
+                              >
+                           </td>
+                           <td colspan="2" class="hidden-xs"></td>
+                           <td class="hidden-xs text-center">
+                              <strong>Total 1.99€</strong>
+                           </td>
+                           <td>
+                              <a
+                              href="panier.html"
+                              class="btn btn-success btn-block"
+                              >Checkout <i class="fa fa-angle-right"></i
+                              ></a>
+                           </td>
+                        </tr>
+                        </table>
                      </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                     >
+                        Close
+                     </button>
+                     <button type="button" class="btn btn-primary">
+                        Save changes
+                     </button>
+                  </div>
                   </div>
                </div>
             </div>
+            </div>
             <div class="col-md-4">
-               <img src="img/springPizza.jpg" class="card-img img-fluid imgResp" alt="menu2">
+            <img
+               src="img/springPizza.jpg"
+               class="card-img img-fluid imgResp"
+               alt="menu2"
+            />
             </div>
          </div>
       </div>
-   </section>
+      </section>
 
-   <section class="Dessert">
+      <section class="Dessert">
       <div class="cardmenusp  cardmenu card mb-3 m-5">
          <div class="row no-gutters">
             <div class="col-md-4">
-               <img src="img/103762665-raspberry-cake-and-many-fresh-raspberries-fresh-spring-cream-cake-with-blackberries-blueberries-and-.jpg" class="card-img img-fluid imgResp" alt="entree">
+            <img
+               src="img/103762665-raspberry-cake-and-many-fresh-raspberries-fresh-spring-cream-cake-with-blackberries-blueberries-and-.jpg"
+               class="card-img img-fluid imgResp"
+               alt="entree"
+            />
             </div>
             <div class="col-md-8">
-               <div class="card-body">
-                  <h5 class="card-title d-flex justify-content-center titre m-5">Desserts</h5> 
-                  <p class="card-text text-center">Spaghettis de melon et fruits rouges <br>
-                  Cubes de glaces choco amandes <br>
-                  Taboulé de quinoa aux fruits d'ici<br>Glace au yaourt et framboise
-                  </p>
-               </div>
-               <div class="row">
-                  <button type="button" class="btn btn-secondary mx-auto" data-toggle="modal"
-                     data-target="#exampleModalCenter3">
-                     Commander
-                  </button>
-               </div>
+            <div class="card-body">
+               <h5 class="card-title d-flex justify-content-center titre m-5">
+                  Desserts
+               </h5>
+               <p class="card-text text-center">
+                  Spaghettis de melon et fruits rouges <br />
+                  Cubes de glaces choco amandes <br />
+                  Taboulé de quinoa aux fruits d'ici<br />Glace au yaourt et
+                  framboise
+               </p>
+            </div>
+            <div class="row">
+               <button
+                  type="button"
+                  class="btn btn-secondary mx-auto"
+                  data-toggle="modal"
+                  data-target="#exampleModalCenter3"
+               >
+                  Commander
+               </button>
+            </div>
 
-               <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered  " role="document">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <h5 class="modal-title" id="exampleModalCenterTitle2">Commander</h5>
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                           </button>
-                        </div>
-                        <div class="modal-body">
-                           <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-                              rel="stylesheet">
-                           <div class="container">
-                              <table id="cart2" class="table table-hover table-condensed">
-                                 <thead>
-                                    <tr>
-                                       <th style="width:50%">Produits</th>
-                                       <th style="width:10%">Prix</th>
-                                       <th style="width:8%">Quantité</th>
-                                       <th style="width:22%" class="text-center">Sous-total</th>
-                                       <th style="width:10%"></th>
-                                    </tr>
-                                 </thead>
-                                 <tbody>
-                                    <tr>
-                                       <td data-th="Product">
-                                          <div class="row">
-                                             <div class="col-sm-2 hidden-xs"><img src="img/spaghettis-de-melon-et-fruits-rouges_0.jpg" alt="Spaghetti"
-                                                   class="img-responsive" /></div>
-                                             <div class="col-sm-10">
-                                                <h4 class="nomargin">option 1</h4>
-                                                <p>Spaghettis de melon et fruits rouges</p>
-                                             </div>
-                                          </div>
-                                       </td>
-                                       <td data-th="Price">18.99€</td>
-                                       <td data-th="Quantity">
-                                          <input type="number" class="form-control text-center" value="1">
-                                       </td>
-                                       <td data-th="Sous-total" class="text-center">18.99€</td>
-                                       <td class="actions" data-th="">
-                                          <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                          <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                       </td>
-                                    </tr>
-                                 </tbody>
-                                 <tbody>
-                                       <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/cubes-de-glaces-choco-amndes.jpg" alt="Choco"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 2</h4>
-                                          <p>Cubes de glaces choco amandes </p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99€</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 <tbody>
-                                       <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/quinoa.jpg" alt="Quinoa"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 3</h4>
-                                          <p>Taboulé de quinoa aux fruits d'ici</p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99€</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 <tbody>
-                                       <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/i92093-sorbet-aux-framboises-et-yaourt.jpg" alt="Avocats"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 4</h4>
-                                          <p>Glace au yaourt et framboise</p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99€</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 
-                                       <tr class="visible-xs">
-                                          <td class="text-center"><strong>Total 1.99€</strong></td>
-                                       </tr>
-                                       <tr>
-                                          <td><a href="index.html" class="btn btn-warning"><i class="fa fa-angle-left"></i>
-                                                Continue
-                                                Shopping</a></td>
-                                          <td colspan="2" class="hidden-xs"></td>
-                                          <td class="hidden-xs text-center"><strong>Total 1.99€</strong></td>
-                                          <td><a href="#contact" class="btn btn-success btn-block">Checkout <i
-                                                   class="fa fa-angle-right"></i></a></td>
-                                       </tr>
-                                    
-                              </table>
-                           </div>
-                        </div>
-                        <div class="modal-footer">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
+            <div
+               class="modal fade"
+               id="exampleModalCenter3"
+               tabindex="-1"
+               role="dialog"
+               aria-labelledby="exampleModalCenterTitle"
+               aria-hidden="true"
+            >
+               <div class="modal-dialog modal-dialog-centered  " role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalCenterTitle2">
+                        Commander
+                     </h5>
+                     <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                     >
+                        <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     <link
+                        href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+                        rel="stylesheet"
+                     />
+                     <div class="container">
+                        <table
+                        id="cart2"
+                        class="table table-hover table-condensed"
+                        >
+                        <thead>
+                           <tr>
+                              <th style="width:50%">Produits</th>
+                              <th style="width:10%">Prix</th>
+                              <th style="width:8%">Quantité</th>
+                              <th style="width:22%" class="text-center">
+                              Sous-total
+                              </th>
+                              <th style="width:10%"></th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/spaghettis-de-melon-et-fruits-rouges_0.jpg"
+                                    alt="Spaghetti"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 1</h4>
+                                    <p>Spaghettis de melon et fruits rouges</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">18.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Sous-total" class="text-center">
+                              18.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/cubes-de-glaces-choco-amndes.jpg"
+                                    alt="Choco"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 2</h4>
+                                    <p>Cubes de glaces choco amandes</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/quinoa.jpg"
+                                    alt="Quinoa"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 3</h4>
+                                    <p>Taboulé de quinoa aux fruits d'ici</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/i92093-sorbet-aux-framboises-et-yaourt.jpg"
+                                    alt="Avocats"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 4</h4>
+                                    <p>Glace au yaourt et framboise</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+
+                        <tr class="visible-xs">
+                           <td class="text-center">
+                              <strong>Total 1.99€</strong>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <a href="index.html" class="btn btn-warning"
+                              ><i class="fa fa-angle-left"></i> Continue
+                              Shopping</a
+                              >
+                           </td>
+                           <td colspan="2" class="hidden-xs"></td>
+                           <td class="hidden-xs text-center">
+                              <strong>Total 1.99€</strong>
+                           </td>
+                           <td>
+                              <a
+                              href="panier.html"
+                              class="btn btn-success btn-block"
+                              >Checkout <i class="fa fa-angle-right"></i
+                              ></a>
+                           </td>
+                        </tr>
+                        </table>
                      </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                     >
+                        Close
+                     </button>
+                  </div>
                   </div>
                </div>
             </div>
+            </div>
          </div>
       </div>
-   </section>
+      </section>
 
-
-   <section class="boisson">
+      <section class="boisson">
       <div class="cardmenu cardmenusp card mb-3 m-5">
          <div class="row no-gutters">
             <div class="col-md-8">
-               <div class="card-body">
-                  <h5 class="card-title d-flex justify-content-center titre m-5">Nos boissons</h5>
-                  <p class="card-text text-center">Green smoothie <br>
-                     Jus de tomate, fraise, pastèque et Aloe Vera <br>
-                     Jus vert banane, épinard, kiwi & eau de coco<br>Golden Milk
-                  </p>
-               </div>
-               <div class="row">
-                  <button type="button" class="btn btn-secondary mx-auto" data-toggle="modal"
-                     data-target="#exampleModalCenter4">
-                     Commander
-                  </button>
-               </div>
+            <div class="card-body">
+               <h5 class="card-title d-flex justify-content-center titre m-5">
+                  Nos boissons
+               </h5>
+               <p class="card-text text-center">
+                  Green smoothie <br />
+                  Jus de tomate, fraise, pastèque et Aloe Vera <br />
+                  Jus vert banane, épinard, kiwi & eau de coco<br />Golden Milk
+               </p>
+            </div>
+            <div class="row">
+               <button
+                  type="button"
+                  class="btn btn-secondary mx-auto"
+                  data-toggle="modal"
+                  data-target="#exampleModalCenter4"
+               >
+                  Commander
+               </button>
+            </div>
 
-               <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
-                  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered" role="document">
-                     <div class="modal-content">
-                        <div class="modal-header">
-                           <h5 class="modal-title" id="exampleModalCenterTitle3">Commander</h5>
-                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                           </button>
-                        </div>
-                        <div class="modal-body">
-                              <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-                              rel="stylesheet">
-                           <div class="container">
-                              <table id="cart3" class="table table-hover table-condensed">
-                                 <thead>
-                                    <tr>
-                                       <th style="width:50%">Produits</th>
-                                       <th style="width:10%">Prix</th>
-                                       <th style="width:8%">Quantité</th>
-                                       <th style="width:22%" class="text-center">Sous-total</th>
-                                       <th style="width:10%"></th>
-                                    </tr>
-                                 </thead>
-                                 <tbody>
-                                    <tr>
-                                       <td data-th="Product">
-                                          <div class="row">
-                                             <div class="col-sm-2 hidden-xs"><img src="img/Green-Juicing-110x100.jpg" alt="Green smoothie "
-                                                   class="img-responsive" /></div>
-                                             <div class="col-sm-10">
-                                                <h4 class="nomargin">option 1</h4>
-                                                <p>Green smoothie </p>
-                                             </div>
-                                          </div>
-                                       </td>
-                                       <td data-th="Price">1.99€</td>
-                                       <td data-th="Quantity">
-                                          <input type="number" class="form-control text-center" value="1">
-                                       </td>
-                                       <td data-th="Sous-total" class="text-center">1.99€</td>
-                                       <td class="actions" data-th="">
-                                          <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                          <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                       </td>
-                                    </tr>
-                                 </tbody>
-                                 <tbody>
-                                       <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/jus_de_tomate_fraise_pasteque_et_aloe_vera.jpg" alt="Jus de tomate, fraise, pastèque et Aloe Vera "
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 2</h4>
-                                          <p>Jus de tomate, fraise, pastèque et Aloe Vera </p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 <tbody>
-                                       <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/jus_vert_banane_epinard_kiwi_et_eau_de_coco_2.jpg" alt="Jus vert banane, épinard, kiwi & eau de coco"
-                                             class="img-responsive"></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 3</h4>
-                                          <p> Jus vert banane, épinard, kiwi & eau de coco </p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99€</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
-                                 <tbody>
-                                       <tr>
-                                 <td data-th="Product">
-                                    <div class="row">
-                                       <div class="col-sm-2 hidden-xs"><img src="img/ob_776227_goldenmilk-curcuma-inde.jpg" alt="Golden Milk"
-                                             class="img-responsive" /></div>
-                                       <div class="col-sm-10">
-                                          <h4 class="nomargin">option 4</h4>
-                                          <p>Golden Milk</p>
-                                       </div>
-                                    </div>
-                                 </td>
-                                 <td data-th="Price">1.99€</td>
-                                 <td data-th="Quantity">
-                                    <input type="number" class="form-control text-center" value="1">
-                                 </td>
-                                 <td data-th="Subtotal" class="text-center">1.99</td>
-                                 <td class="actions" data-th="">
-                                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                                 </td>
-                                 </tr>
-                                 </tbody>
+            <div
+               class="modal fade"
+               id="exampleModalCenter4"
+               tabindex="-1"
+               role="dialog"
+               aria-labelledby="exampleModalCenterTitle"
+               aria-hidden="true"
+            >
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalCenterTitle3">
+                        Commander
+                     </h5>
+                     <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                     >
+                        <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="modal-body">
+                     <link
+                        href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+                        rel="stylesheet"
+                     />
+                     <div class="container">
+                        <table
+                        id="cart3"
+                        class="table table-hover table-condensed"
+                        >
+                        <thead>
+                           <tr>
+                              <th style="width:50%">Produits</th>
+                              <th style="width:10%">Prix</th>
+                              <th style="width:8%">Quantité</th>
+                              <th style="width:22%" class="text-center">
+                              Sous-total
+                              </th>
+                              <th style="width:10%"></th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/Green-Juicing-110x100.jpg"
+                                    alt="Green smoothie "
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 1</h4>
+                                    <p>Green smoothie</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Sous-total" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/jus_de_tomate_fraise_pasteque_et_aloe_vera.jpg"
+                                    alt="Jus de tomate, fraise, pastèque et Aloe Vera "
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 2</h4>
+                                    <p>
+                                    Jus de tomate, fraise, pastèque et Aloe Vera
+                                    </p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">1.99</td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/jus_vert_banane_epinard_kiwi_et_eau_de_coco_2.jpg"
+                                    alt="Jus vert banane, épinard, kiwi & eau de coco"
+                                    class="img-responsive"
+                                    />
+                                 </div>
 
-                                       <tr class="visible-xs">
-                                          <td class="text-center"><strong>Total 1.99€</strong></td>
-                                       </tr>
-                                       <tr>
-                                          <td><a href="index.html" class="btn btn-warning"><i class="fa fa-angle-left"></i>
-                                                Continue
-                                                Shopping</a></td>
-                                          <td colspan="2" class="hidden-xs"></td>
-                                          <td class="hidden-xs text-center"><strong>Total 1.99€</strong></td>
-                                          <td><a href="#contact" class="btn btn-success btn-block">Checkout <i
-                                                   class="fa fa-angle-right"></i></a></td>
-                                       </tr>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 3</h4>
+                                    <p>
+                                    Jus vert banane, épinard, kiwi & eau de coco
+                                    </p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">
+                              1.99€
+                              </td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                              <div class="row">
+                                 <div class="col-sm-2 hidden-xs">
+                                    <img
+                                    src="img/ob_776227_goldenmilk-curcuma-inde.jpg"
+                                    alt="Golden Milk"
+                                    class="img-responsive"
+                                    />
+                                 </div>
+                                 <div class="col-sm-10">
+                                    <h4 class="nomargin titre">option 4</h4>
+                                    <p>Golden Milk</p>
+                                 </div>
+                              </div>
+                              </td>
+                              <td data-th="Price">1.99€</td>
+                              <td data-th="Quantity">
+                              <input
+                                 type="number"
+                                 class="form-control text-center"
+                                 value="1"
+                              />
+                              </td>
+                              <td data-th="Subtotal" class="text-center">1.99</td>
+                              <td class="actions" data-th="">
+                              <button class="btn btn-info btn-sm">
+                                 <i class="fa fa-refresh"></i>
+                              </button>
+                              <button class="btn btn-danger btn-sm">
+                                 <i class="fa fa-trash-o"></i>
+                              </button>
+                              </td>
+                           </tr>
+                        </tbody>
 
-                              </table>
-                           </div>
-                        </div>
-                        <div class="modal-footer">
-                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+                        <tr class="visible-xs">
+                           <td class="text-center">
+                              <strong>Total 1.99€</strong>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <a href="index.html" class="btn btn-warning"
+                              ><i class="fa fa-angle-left"></i> Continue
+                              Shopping</a
+                              >
+                           </td>
+                           <td colspan="2" class="hidden-xs"></td>
+                           <td class="hidden-xs text-center">
+                              <strong>Total 1.99€</strong>
+                           </td>
+                           <td>
+                              <a
+                              href="panier.html"
+                              class="btn btn-success btn-block"
+                              >Checkout <i class="fa fa-angle-right"></i
+                              ></a>
+                           </td>
+                        </tr>
+                        </table>
                      </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                     >
+                        Close
+                     </button>
+                     <button type="button" class="btn btn-primary">
+                        Save changes
+                     </button>
+                  </div>
                   </div>
                </div>
             </div>
+            </div>
             <div class="col-md-4">
-               <img src="img/97813787-food-and-drink-health-care-diet-and-nutrition-concept-fresh-red-blood-orange-juice-from-ripe-organic.jpg" class="card-img img-fluid imgResp" alt="menu2">
+            <img
+               src="img/97813787-food-and-drink-health-care-diet-and-nutrition-concept-fresh-red-blood-orange-juice-from-ripe-organic.jpg"
+               class="card-img img-fluid imgResp"
+               alt="menu2"
+            />
             </div>
          </div>
       </div>
-   </section>
+      </section>
 
-   <footer class="m-5">
+      <!--Footer-->
 
-   <div class="row m-2 justify-content-around">
-      <div class="col-lg-4  mt-5 map mw-100">
-         <iframe
+      <footer class="m-5">
+      <div class="row m-2 justify-content-around">
+         <div class="col-lg-4  mt-5 map mw-100">
+            <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.9688332370074!2d0.6664303156231053!3d47.393040979171055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fcd593f2397ee3%3A0xf59dd58d55f79b77!2sMAME!5e0!3m2!1sfr!2sfr!4v1551715383242"
-            width="500" height="200" style="border:0" allowfullscreen></iframe>
-      </div>
-      <div class="col-lg-5">
-         <h2 class="text-uppercase font-weight-bold text-white text-center mt-5" id="contact">CONTACT US</h2>
-         <form>
+            width="500"
+            height="200"
+            style="border:0"
+            allowfullscreen
+            ></iframe>
+         </div>
+         <div class="col-lg-5">
+            <h2
+            class="text-uppercase font-weight-bold text-white text-center mt-5"
+            id="contact"
+            >
+            CONTACT US
+            </h2>
+            <form>
             <div class="row">
                <div class="col-lg-6">
                   <div class="form-group">
-                     <input type="text" class="form-control mt-2" placeholder="Nom" required>
+                  <input
+                     type="text"
+                     class="form-control mt-2"
+                     placeholder="Nom"
+                     required
+                  />
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="form-group">
-                     <input type="text" class="form-control mt-2" placeholder="Surname" required>
+                  <input
+                     type="text"
+                     class="form-control mt-2"
+                     placeholder="Surname"
+                     required
+                  />
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="form-group">
-                     <input type="email" class="form-control mt-2" placeholder="Email" required>
+                  <input
+                     type="email"
+                     class="form-control mt-2"
+                     placeholder="Email"
+                     required
+                  />
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="form-group">
-                     <input type="text" class="form-control mt-2" placeholder="Phone" required>
+                  <input
+                     type="text"
+                     class="form-control mt-2"
+                     placeholder="Phone"
+                     required
+                  />
                   </div>
                </div>
                <div class="col-12">
                   <div class="form-group">
-                     <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Insert text"
-                        rows="3" required></textarea>
+                  <textarea
+                     class="form-control"
+                     id="exampleFormControlTextarea1"
+                     placeholder="Insert text"
+                     rows="3"
+                     required
+                  ></textarea>
                   </div>
                </div>
                <div class="col-12">
-                  <div class="form-group">
-                  </div>
+                  <div class="form-group"></div>
                </div>
                <div class="col-12 d-flex justify-content-center">
-                  <button type="button" class="btn btn-info alert-dark">Submit</button>
+                  <button type="button" class="btn btn-info alert-dark">
+                  Submit
+                  </button>
                </div>
             </div>
-         </form>
-
-      </div>
-      <div class="col-lg-1 mt-5">
-         <div class="icon-bar ">
-            <a href="https://www.facebook.com/mistercourgette/" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="https://twitter.com/unecouurgette?lang=fr" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.google.com/" class="google"><i class="fa fa-google"></i></a>
-            <a href="https://fr.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            <a href="https://www.youtube.com/watch?v=21_8qq34AE4" class="youtube"><i class="fa fa-youtube"></i></a>
+            </form>
          </div>
-      </div>
+         <div class="col-lg-1 mt-5">
+            <div class="icon-bar ">
+            <a href="https://www.facebook.com/mistercourgette/" class="facebook"
+               ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com/unecouurgette?lang=fr" class="twitter"
+               ><i class="fa fa-twitter"></i
+            ></a>
+            <a href="https://www.google.com/" class="google"
+               ><i class="fa fa-google"></i
+            ></a>
+            <a href="https://fr.linkedin.com/" class="linkedin"
+               ><i class="fa fa-linkedin"></i
+            ></a>
+            <a
+               href="https://www.youtube.com/watch?v=21_8qq34AE4"
+               class="youtube"
+               ><i class="fa fa-youtube"></i
+            ></a>
+            </div>
+         </div>
 
-      <div class="row text-center w-100 mt-5">
-         
-         <div class="col-md-2">
-            <a class="text-light" href="index.html">Home</a> <br>
-            <a class="text-light" href="cgv.html">Conditions générales de ventes</a>
-            
-         </div>   
-         
-         <div class="col-md-2">
-               <a class="text-light" href="index.html">Nos menus</a><br>
-               <a class="text-light" href="https://cuisine.journaldesfemmes.fr/recette/310548-american-cookies">Cookies</a>
-         </div> 
+         <div class="row text-center w-100 mt-5">
+            <div class="col-md-2">
+            <a class="text-light" href="index.html">Home</a> <br />
+            <a class="text-light" href="cgv.html"
+               >Conditions générales de ventes</a
+            >
+            </div>
 
-         <div class="col-md-4 titre text-light">
+            <div class="col-md-2">
+            <a class="text-light" href="index.html">Nos menus</a><br />
+            <a
+               class="text-light"
+               href="https://cuisine.journaldesfemmes.fr/recette/310548-american-cookies"
+               >Cookies</a
+            >
+            </div>
+
+            <div class="col-md-4 titre text-light">
             <h1>Mister Zucchini</h1>
-         </div>
+            </div>
 
-         <div class="col-md-2">
-               <a class="text-light" href="index.html">Abous us</a><br>
-            <a class="text-light" href="https://www.bred.fr/medias/pdf/tarifs/tarifs-particuliers-metropole-2018.pdf">Conditions tarifaires</a>
-         </div>
+            <div class="col-md-2">
+            <a class="text-light" href="index.html">Abous us</a><br />
+            <a
+               class="text-light"
+               href="https://www.bred.fr/medias/pdf/tarifs/tarifs-particuliers-metropole-2018.pdf"
+               >Conditions tarifaires</a
+            >
+            </div>
 
-         <div class="col-md-2">
-               <a class="text-light" href="#contact">Contact</a><br>
-               <a class="text-light" href="https://www.youtube.com/?gl=FR&hl=fr">Médias</a>
+            <div class="col-md-2">
+            <a class="text-light" href="#contact">Contact</a><br />
+            <a class="text-light" href="https://www.youtube.com/?gl=FR&hl=fr"
+               >Médias</a
+            >
+            </div>
          </div>
-
       </div>
-
-   </div>
-   <div class="text-center">
+      <div class="text-center">
          <p>© Site créé par : Dylan, Jérémy , Nicolas, Jérémy .</p>
-   </div>
-   
-   </footer>
+      </div>
+      </footer>
 
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      crossorigin="anonymous"
+      ></script>
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      crossorigin="anonymous"
+      ></script>
+      <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"></script>
-
-</body>
-
-</html>
+      crossorigin="anonymous"
+      ></script>
+   </body>
+   </html>
