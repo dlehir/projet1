@@ -92,9 +92,9 @@ body {
 }
 
 .logo {
-  position: relative;
-  top: -170px;
-  width:10%;
+  position: absolute;
+  top: 0px;
+  width:12%;
 
 }
 
